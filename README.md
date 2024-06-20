@@ -1,2 +1,2 @@
-# Project2
+# Logan Colberg Project2
 Real Project
