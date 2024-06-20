@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+        }
+        header nav a {
+            color: #fff;
+            padding: 0 1em;
+            text-decoration: none;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        #about {
+            background-color: #f4f4f4;
+            padding: 1em;
+        }
+        #facts {
+            background-color: #e2e2e2;
+            padding: 1em;
+        }
+        #contact {
+            background-color: #d1d1d1;
+            padding: 1em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#facts">Facts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Welcome to my page! My name is [Your Name]. I'm passionate about web design and development. This project showcases some of the skills I've learned.</p>
+            <img src="https://via.placeholder.com/800x400" alt="A descriptive alt text for the image">
+        </section>
+        <section id="facts">
+            <h2>Web Design Facts</h2>
+            <ul>
+                <li>HTML stands for HyperText Markup Language.</li>
+                <li>CSS is used for styling web pages.</li>
+                <li>JavaScript adds interactivity to web pages.</li>
+                <li>Responsive design ensures that web pages look good on all devices.</li>
+                <li>Accessibility is crucial for making websites usable for everyone.</li>
+            </ul>
+            <img src="https://via.placeholder.com/800x400" alt="Another descriptive alt text for the image">
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact Information: email@example.com | Phone: (123) 456-7890</p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
